@@ -19,3 +19,14 @@ for letter in name:
 # h
 # o
 # n
+
+
+
+colors = ["red", "blue", "green"]
+for color in colors:
+    print(f"I like {color}")
+
+# Output:
+# I like red
+# I like blue
+# I like green
