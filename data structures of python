@@ -1,1 +1,30 @@
 
+things = ["car",'train',16]
+
+things.append("rishabh")
+things.insert(3,78)
+len = len(things)
+print(len)
+print(things)
+for thing in things:
+  print(thing)
+  
+
+  
+  
+  
+  
+#dictionary
+objects = {
+  "name" :"ajax",
+  "age":24,
+  "cast":"brahmin"
+  
+}
+print(objects)
+
+
+#tuples are list but they are not mutable
+thing2=(24,"sam")
+thing2[0]=16
+print(thing2[0])
