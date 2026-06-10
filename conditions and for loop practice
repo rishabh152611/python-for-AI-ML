@@ -1,0 +1,16 @@
+LC 2124:
+class Solution:
+    def checkString(self, s: str) -> bool:
+        ans = 0
+
+        for ch in s:
+            if ch == 'b' and ans == 1:
+                continue
+            elif ch == 'a' and ans == 0:
+                continue
+            elif ch == 'b':
+                ans = 1
+            elif ch == 'a' and ans == 1:
+                return False
+
+        return True
